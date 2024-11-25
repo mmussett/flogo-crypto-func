@@ -34,7 +34,7 @@ crypto.aesEncrypt($flow.body.msg, $property["AESKEY"])
 * crypto.rsaDecrypt(ciphertext,rsaPrivateKey)
 
 
-Due to limitation in how PEM formatted keys are stored in Flogo properties you must encode the PEM certificate using Base64 prior to setting the flogo property. Failure to encode the PEM certificate will cause an error at runtime. When setting the rsaPublicKey parameter you must decode the PEM certificate string using utils.decodeBase64($property[]). 
+Due to limitation in how PEM formatted keys are stored in Flogo properties you must encode the PEM certificate using Base64 prior to setting the flogo property. Failure to encode the PEM certificate will cause an error at runtime. When setting the rsaPublicKey/rsaPrivateKey parameter you must decode the PEM certificate string using utils.decodeBase64($property[]). 
 
 Example:
 
