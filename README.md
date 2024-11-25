@@ -1,6 +1,6 @@
 # flogo-crypto-func
 
-This is a test application for flogo extension cryptographic function library.
+This is a demonstration application for flogo extension cryptographic function library.
 
 
 ## Cryptographic function library
