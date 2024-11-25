@@ -1,0 +1,10 @@
+{
+  "suites": {},
+  "tests": {},
+  "type": "flogo:unittest",
+  "model": "1.1.1",
+  "app": {
+    "name": "flogo-crypto",
+    "version": "1.0.0"
+  }
+}
